@@ -35,10 +35,10 @@ int main() {
             case '/':
                 if (num2== 0) {
                     cout << "Division by zero is not allowed." << endl;
-                    break;
+                    continue;
                 }
                  result = divide(num1,num2);
-                break;
+                continue;
             case '%':
             if ((int)num2 == 0) {
                 cout << "Cannot divide by zero" << endl;
